@@ -1,0 +1,92 @@
+.logincontainer {
+  background-image: linear-gradient(225deg,purple 15%,darkblue 75%);
+  height  : 750px;
+  width : 100%;
+}
+
+.loginsucessful {
+  border : 5px solid #333;
+  border-radius : 30px;
+  position : absolute;
+  background-color: white;
+  height : 600px;
+  
+  font-size : 35px;
+  width : 40%;
+  margin-left : 30%;
+  margin-top : 4%;
+  opacity : 0.9;
+
+  
+}
+
+.loginheader {
+  
+  text-align : center;
+  margin-left : auto;
+}
+
+.mainpage {
+  border-radius : 5px solid red;
+  margin-top : 60px;
+  margin-left : auto;
+  width : 90%;
+  font-family: Arial, Helvetica, sans-serif;
+} 
+.form-control1 {
+  width : 50%;
+  height:  40px;
+  margin-left : 90px;
+  margin-bottom : 10px;
+  border : 2px solid black;
+  font-size : 18px;
+}
+
+.form-control {
+  width : 50%;
+  height:  40px;
+  margin-top : 40px;
+  margin-left : 34px;
+  margin-bottom : 10px;
+  border : 2px solid black;
+  font-size : 18px;
+}
+
+.custom-control-label {
+  font-size : 20px;
+}
+
+.d-grid {
+  margin-top : 40px;
+  margin-left : auto;
+  margin-right : auto;
+  width : 100%;
+  
+}
+
+.btn-btn-primary {
+  width : 70%;
+  align-items: center;
+  height : 50px;
+  background-color: purple;
+  border : 3px solid black;
+  border-radius : 10px;
+  font-size : 30px;
+  text-align : center;
+  font-weight : bold;
+  color :white;
+  
+
+  margin-left : 45px;
+}
+
+.btn-btn-primary:hover{
+  border : 5px solid black;
+  border-radius : 50px;
+}
+
+.forgot-password-text-right1 {
+  font-size : 20px;
+  margin-top : 30px;
+  margin-left : 120px;
+}

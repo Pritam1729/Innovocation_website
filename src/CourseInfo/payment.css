@@ -1,0 +1,59 @@
+.paymentcontainer {
+    background-image:linear-gradient(225deg,purple 45%,darkblue 75%);
+    width : 100%;
+    height : 720px;
+}
+
+.paymentdetails {
+    color : black;
+    border : 5px solid black;
+    border-radius : 50px;
+    position :absolute;
+    width : 50%;
+    background-image : linear-gradient(225deg,lightgreen 45%,yellow 75%);
+    height : 80%;
+    left : 25%;
+    top : 10%;
+}
+
+.paymentheader {
+    position : absolute;
+    font-size : 25px;
+    top : 10px;
+    left : 17%;
+}
+
+.coursename1 {
+    position : absolute;
+    top : 20%;
+    font-size : 16px;
+    left : 14%;
+}
+
+.courseprice1 {
+    position : absolute;
+    top : 30%;
+    font-size : 16px;
+    left : 14%;
+}
+
+.paymentstatus {
+    position : absolute;
+    top : 40%;
+    font-size : 16px;
+    left : 14%;
+}
+
+.success {
+    position : absolute;
+    top : 60%;
+    font-size : 20px;
+    text-align : center;
+}
+
+.clickhere {
+    position :absolute;
+    top : 90%;
+    font-size : 22px;
+    left : 28%;
+}

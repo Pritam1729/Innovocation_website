@@ -1,0 +1,570 @@
+.containerhome {
+    width : 100%;
+    height : 3200px;;
+    background-image:linear-gradient(225deg,purple 15%,darkblue 75%);
+    zoom: 80%;
+  }
+
+
+
+.Navbarhome {
+    background-color: #333;
+    width : 100%;
+    height : 90px;
+    font-size : 40px;
+    position : fixed;
+    top : 0px;
+  }
+  
+  .img22home {
+    height: 100%;
+    margin-left: 10px;
+  }
+  
+  .link1home {
+    text-decoration: none;
+    position : absolute;
+    top : 26px;
+    font-weight : bold;
+    margin-left : 125px;
+    color:white;
+    font-size :25px;
+    margin-top : auto;
+    margin-bottom : auto;
+  }
+  
+  .link2home {
+    text-decoration: none;
+    position : absolute;
+    top : 26px;
+    font-weight : bold;
+    margin-left : 300px;
+    color:white;
+    font-size :25px;
+    margin-top : auto;
+    margin-bottom : auto;
+  }
+  
+  .link3home {
+    text-decoration: none;
+    position : absolute;
+    top : 26px;
+    font-weight : bold;
+    margin-left : 500px;
+    color:white;
+    font-size :25px;
+    margin-top : auto;
+    margin-bottom : auto;
+  }
+  
+  .link4home {
+    float: right;
+    text-decoration: none;
+    color: white;
+  }
+  
+  .logoutlinkhome {
+    flex: right;
+    width: 20%;
+    /* margin-left : 850px; */
+    margin-top: auto;
+    margin-bottom: auto;
+    font-weight: bold;
+    font-size: 20px;
+    /* width : 20%; */
+  }
+  
+  .link1home:hover {
+    color: orange;
+  }
+  
+  .link4home:hover {
+    color: rgb(255, 50, 50);
+    text-decoration: underline;
+  }
+  
+  .link2home:hover {
+    color: orange;
+  }
+  
+  .link3home:hover {
+    color: orange;
+  }
+  
+  .Userhome {
+    color: white;
+    font-size: 12px;
+    width: 40%;
+    margin-left: 700;
+  }
+  
+  .dropdownhome {
+    float: right;
+    overflow: hidden;
+    position : absolute;
+    top : 12px;
+    right : 40px;
+    margin-top: auto;
+    margin-bottom: auto;
+  }
+  
+  .dropdownhome .dropbtnhome {
+    font-size: 25px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+  }
+  
+  .dropdown-contenthome {
+    display: none;
+    position: fixed;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-contenthome .loghome {
+    float: none;
+    color: black;
+    font-size: 15px;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .dropdown-contenthome .loghome:hover {
+    background-color: #ddd;
+  }
+  
+  .dropdownhome:hover .dropdown-contenthome {
+    display: block;
+  }
+
+
+  /* .bodyhome {
+    height : 100%;
+    width : 100%;
+    background-image:linear-gradient(150deg,purple 15%,darkblue 75%);
+
+  } */
+
+  /* .headerhome {
+    position : absolute;
+    left : 8%;
+    top : 30%;
+    width : 600px;
+    font-family :Verdana, Geneva, Tahoma, sans-serif;
+    font-size : 50px;
+    color : white;
+  } */
+
+
+  .headerhome {
+    position : absolute;
+    /* border : 6px solid yellow; */
+    width : 100%;
+    height: 90%;
+    top : 12%;
+  }
+
+  .headerhomeheader {
+      font-size:130px;
+      color : white;
+      margin-top : 7.5%;
+      margin-left : 5%;
+      width : 70%;
+      font-family :Arial black fantasy;
+  }
+
+  .headerhomeheader2 {
+    font-size:130px;
+    color : white;
+    margin-top : 2%;
+    margin-left : 5%;
+    width : 50%;
+    font-family :Arial black fantasy;
+}
+
+  .headerhomeheader3 {
+    font-size : 30px;
+    color : yellow;
+    margin-top : 2%;
+    margin-left : 5%;
+    width : 650px;
+  }
+
+  .headerbutton {
+    margin-top : 2%;
+    margin-left : 5%;
+    font-weight : bold;
+    border : 2px solid black;
+    width : 350px;
+    height : 90px;
+    text-align: center;
+    border-radius : 50px;
+    
+    background-color : #14c738;
+    /* background-image: linear-gradient(270deg,orange 30%, rgb(156, 8, 127) 70%); */
+
+  }
+
+  .headerbutton3 {
+    margin-top : 2%;
+    margin-left : 5%;
+    font-weight : bold;
+    border : 2px solid black;
+    width : 250px;
+    height : 80px;
+    text-align: center;
+    border-radius : 50px;
+    
+    background-color : #14c738;
+    /* background-image: linear-gradient(270deg,orange 30%, rgb(156, 8, 127) 70%); */
+
+  }
+
+  .headerbutton3:hover {
+    background-image: linear-gradient(225deg,pink 45%,orange 50%);
+    border : 5px solid black;
+  }
+
+  .headerbutton2 {
+    text-decoration : none;
+    color : black;
+    font-size: 30px;
+    margin-top :auto;
+  }
+
+  .headerbutton23 {
+    position : absolute;
+    text-decoration : none;
+    color : black;
+    font-size: 30px;
+    margin-top :auto;
+    left : 7%;
+    top : 82%;
+    margin-bottom :auto;
+  }
+
+  .headerImage {
+    position :absolute;
+    top : 20%;
+    border-radius : 20px;
+    opacity : 0.8;
+    right : 5%;
+    width : 800px;
+  }
+
+  .whatweoffer {
+    position:absolute;
+    top :110%;
+    width : 100%;
+    height : 90%;
+    /* border : 10px solid yellow; */
+  }
+
+  .weofferhead {
+    font-size : 40px;
+    color : white;
+    position : absolute;
+    right:46%;
+  }
+
+  .characterhome1 {
+    background-image : linear-gradient(180deg,skyblue 0%,white 100%);
+    border : 3px solid white;
+    position : absolute;
+    margin-left : 7.5%;
+    top : 90px;
+    color: black;
+    height : 250px;
+    width : 250px;
+    /* color :white; */
+    margin-top : 30px;
+    border-radius : 10px;
+  
+  }
+  
+  .character10home{
+    margin-right : auto;
+    margin-left : auto;
+    text-align: center;
+    font-size : 25px;
+    margin-top: 10px;
+  }
+  
+  .character20home {
+    margin-right : auto;
+    padding-left : 6px;
+    margin-left : auto;
+    text-align : auto;
+    margin-top:10px;
+  }
+  
+  .characterhome2 {
+    background-image : linear-gradient(180deg,skyblue 0%,white 100%);
+    border : 3px solid white;
+    position : absolute;
+    color : black;
+    top : 90px;
+    margin-left : 30%;
+    height : 250px;
+    width : 250px;
+    /* color :white; */
+    margin-top : 30px;
+    border-radius : 10px;
+  }
+  
+  .characterhome3 {
+    background-image : linear-gradient(180deg,skyblue 0%,white 100%);
+    text-align : center;
+    color:black;
+    border : 3px solid white;
+    position : absolute;
+    top : 90px;
+    margin-left : 53%;
+    height : 250px;
+    width : 250px;
+    /* color :white; */
+    margin-top : 30px;
+    border-radius : 10px;
+  }
+  
+  
+  .characterhome4 {
+    background-image : linear-gradient(180deg,skyblue 0%,white 100%);
+    color : black;
+    text-align:center;
+    border : 3px solid white;
+    position : absolute;
+    top : 90px;
+    margin-left : 76%;
+    height : 250px;
+    width : 250px;
+    /* color :white; */
+    margin-top : 30px;
+    border-radius : 10px;
+  }
+  
+  .img100home {
+    padding:10px;
+    width : 240px;
+    height :185px;
+    
+  }
+  
+  .characterhome1:hover {
+    background-image: linear-gradient(180deg, orange 0%,pink 100%);
+    border : 5px solid black;
+  }
+  
+  .characterhome2:hover {
+    background-image: linear-gradient(180deg, orange 0%,pink 100%);
+    border : 5px solid black;
+  }
+  .characterhome3:hover {
+    background-image: linear-gradient(180deg, orange 0%,pink 100%);
+    border : 5px solid black;
+  }
+  .characterhome4:hover {
+    background-image: linear-gradient(180deg, orange 0%,pink 100%);
+    border : 5px solid black;
+  }
+
+  .characterhome5:hover {
+    background-image: linear-gradient(180deg, orange 0%,pink 100%);
+    border : 5px solid black;
+  }
+  
+  .characterhome6:hover {
+    background-image: linear-gradient(180deg, orange 0%,pink 100%);
+    border : 5px solid black;
+  }
+  .characterhome7:hover {
+    background-image: linear-gradient(180deg, orange 0%,pink 100%);
+    border : 5px solid black;
+  }
+  .characterhome8:hover {
+    background-image: linear-gradient(180deg, orange 0%,pink 100%);
+    border : 5px solid black;
+  }
+
+  .characterhome5 {
+    background-image : linear-gradient(180deg,skyblue 0%,white 100%);
+    border : 3px solid white;
+    position : absolute;
+    margin-left : 7.5%;
+    top : 500px;
+    color: black;
+    height : 250px;
+    width : 250px;
+    /* color :white; */
+    margin-top : 30px;
+    border-radius : 10px;
+  
+  }
+
+
+
+
+  .characterhome6 {
+    background-image : linear-gradient(180deg,skyblue 0%,white 100%);
+    border : 3px solid white;
+    position : absolute;
+    color : black;
+    top : 500px;
+    margin-left : 30%;
+    height : 250px;
+    width : 250px;
+    /* color :white; */
+    margin-top : 30px;
+    border-radius : 10px;
+  }
+  
+  .characterhome7 {
+    background-image : linear-gradient(180deg,skyblue 0%,white 100%);
+    text-align : center;
+    color:black;
+    border : 3px solid white;
+    position : absolute;
+    top : 500px;
+    margin-left : 53%;
+    height : 250px;
+    width : 250px;
+    /* color :white; */
+    margin-top : 30px;
+    border-radius : 10px;
+  }
+  
+  
+  .characterhome8 {
+    background-image : linear-gradient(180deg,skyblue 0%,white 100%);
+    color : black;
+    text-align:center;
+    border : 3px solid white;
+    position : absolute;
+    top : 500px;
+    margin-left : 76%;
+    height : 250px;
+    width : 250px;
+    /* color :white; */
+    margin-top : 30px;
+    border-radius : 10px;
+  }
+
+  .Aboutus {
+    position : absolute;
+    top : 230%;
+    /* border : 5px solid yellow; */
+    width : 100%;
+    height : 90%;
+  }
+
+  .aboutdiv:hover {
+    border : 5px solid black;
+  }
+
+  .aboutusheader {
+    position: absolute;
+    color : white;
+    font-size :  40px;
+    font-family :Arial black fantasy;
+    right : 46%;
+  }
+
+  .aboutdiv {
+    height : 90%;
+    width : 96%;
+    border : 5px solid yellow;
+    margin-right : auto;
+    margin-left :auto;
+    margin-top : 80px;
+    background-color: White;
+    opacity : 0.8;
+    border-radius : 10px;
+  }
+
+  .descrip {
+    
+    font-size : 40px;
+    height : 30%;
+    width : 40%;
+    margin-top :80px;
+    margin-left : 80px;
+    margin-bottom : auto;
+
+  }
+
+  .innoimg {
+    position : absolute;
+    right : 150px;
+    height : 550px;
+    top : 140px;
+    width : 700px;
+
+    border-radius : 20px;
+   }
+
+   .Footerhome {
+      position : absolute;
+      bottom : 0px;
+   }
+
+   .footerHome1 {
+    background-color: #333;
+    position : absolute;
+    top : 3000px;
+    height : 400px;
+    width : 100%;
+    color : white;
+   }
+
+   .linki {
+    text-decoration: none;
+    color : white;
+   }
+
+   .headerbutton:hover {
+    background-image: linear-gradient(225deg,pink 45%,orange 50%);
+    border : 5px solid black;
+   }
+
+   .signin {
+    
+    position : absolute;
+    top : 20px;
+    right : 30px;
+    border : 5px solid #333;
+    width : 200px;
+    height : 60px;
+    text-align :center;
+    margin-bottom : auto;
+    margin-top : auto;
+    border-radius : 50px;
+   }
+
+   .signinbutton {
+    border-radius : 50px;
+    position:absolute;
+    text-decoration: none;
+    font-size : 30px;
+    font-weight : bold;
+    color : white;
+    right: 25%;
+    width : 100%;
+    
+  
+   }
+
+   .signinbutton:hover {
+    background-color: white;
+    color :black;
+   }
+
+   

@@ -1,0 +1,75 @@
+.Userdetails {
+    border : 5px solid white;
+    width  : 650px;
+    height: 500px;
+    position : absolute;
+    margin-left : 28%;
+    margin-top : 7%;
+    /* background-color: white; */
+    background-image: linear-gradient(225deg,lightblue 15%,pink 75%);
+    border-radius : 50px;
+    font-family : Arial, Helvetica, sans-serif;
+}
+
+.usercontainer {
+    background-image: linear-gradient(225deg,purple 15%,darkblue 75%);
+    height : 720px;
+}
+
+.headeruserdetails {
+    font-size : 40px;
+    position : absolute;
+    left : 26%
+}
+
+.mainuserpage {
+    position : absolute;
+    /* border : 5px solid black; */
+    top : 20%;
+    height : 60%;
+    left : 5%;
+    width : 90%;
+}
+
+.nameuser {
+    position : absolute;
+    top : 5%;
+    font-size : 30px;
+    left : 2%;
+}
+
+.lastname {
+    position : absolute;
+    top : 35%;
+    font-size : 30px;
+    left : 2%;
+}
+
+.emailuser {
+    position : absolute;
+    top : 70%;
+    font-size : 30px;
+    left : 2%;
+}
+
+.namespan {
+    margin-left : 100px;
+}
+
+.lastspan {
+    margin-left : 54px;
+}
+
+.emailspan {
+    margin-left : 30px;
+}
+
+.homebuttonuser {
+    position : absolute;
+    top : 80%;
+    font-size: 20px;
+    left : 35%;
+}
+
+
+
